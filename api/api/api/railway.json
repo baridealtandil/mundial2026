@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "DOCKERFILE",
+    "dockerfilePath": "api/Dockerfile"
+  },
+  "deploy": {
+    "startCommand": "bun run api/index.ts"
+  }
+}
